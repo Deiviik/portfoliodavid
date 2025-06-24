@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: url('fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 999;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  padding: 0px 5px 90px; /* antes era 10px */
+  overflow: hidden;
+}
+.portfolio-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 250px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  letter-spacing: -15px;
+  z-index: 0;
+}
+.portfolio-name {
+  position: absolute;
+  top: 31%;
+  left: 22.7%;
+  font-family: "Oswald", sans-serif;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: transparent;
+-webkit-text-stroke: 1.5px white;
+  font-weight: bold;
+  z-index: 0;
+}
+.portfolio-programador {
+  position: absolute;
+  top: 34.5%;
+  left: 79%;
+  font-family: "Oswald", sans-serif;
+  transform: translateX(-50%);
+  font-size: 38.5px;
+  color: transparent;
+-webkit-text-stroke: 1.5px white;
+  font-weight: bold;
+  z-index: 0;
+  width: 50%;
+}
+.modelo {
+  position: relative;
+  z-index: 1;
+  width: 1050px;
+  top: -30px;
+}
+#about {
+  position: relative;
+  padding: 5x 80px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: -280px;
+  right:-110px;
+
+}
+h2 {
+  padding:14px;
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 200px;
+  text-align: center;
+  right: -30;
+}
+.texto1
+{
+  position: relative;
+  right: -350px;
+  width: 35%;
+  top: -110px;
+}
+.p1
+{
+  position: relative;
+  right: -50px;
+  width: 85%;
+  top: -200px;
+}
+.projects img {
+  width: 100px;
+  margin: 10px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00aaff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
